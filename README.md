@@ -1,10 +1,24 @@
 # Regular Expression
-
-In this article I will explain what is the regular expression.
+In this article I will explain what is the regular expression, show examples of regular expression, and explain components of regular expression.
 
 ## Summary
+Regular expression (aka regex) is a sequence of characters to search specific pattern in string. 
+Usually, Regex is used for searching some pattern of string such as email address or URL, or replace some pattern of string, such as changing part of SSN from number to "*".
 
- 
+Regex to detect social security number:
+```
+\d\d\d-\d\d-\d\d\d\d
+```
+
+Regex to detect Email address:
+```
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
+
+Regex to detect password with 1 uppercase letter, 1 number, and be at least 8 characters long: 
+```
+/(?=(.*[0-9]))((?=.*[A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z]))^.{8,}$/
+```
 
 ## Table of Contents
 
