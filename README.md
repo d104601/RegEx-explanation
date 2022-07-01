@@ -31,37 +31,47 @@ Regex to detect password with 1 uppercase letter, 1 number, and be at least 8 ch
 - [Greedy and Lazy Match](#Greedy-and-Lazy-Match)
 - [Boundaries](#Boundaries)
 - [Back-references](#Back-References)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Look-ahead and Look-behind](#Look-ahead-and-Look-behind)
 
 ## Regex Components
 
 ### Anchors
-Anchor is a group of components that is used to match the position of string. Components below are common examples of anchor.
+Anchor is a group of components that is used to match the position of string. Components below are some examples of anchor.
 ```
-"^" : Matches the beginning of a string. For example, "^dog" means a string begins with "dog".
-"$" : Matches the end of a string. For example, "dog$" means a string ends with "dog". 
+"^" : Matches the beginning of a string. For example, "^dog" matches a string begins with "dog".
+"$" : Matches the end of a string. For example, "dog$" matches a string ends with "dog". 
 ``` 
 
 ### Quantifiers
-Quantifiers is a group of components that indicate numbers of characters or expressions to match. Components below are common examples of quantifiers
+Quantifiers is a group of components that indicate numbers of characters or expressions to match. Components below are some examples of quantifiers
 ```
-"*" : Matches the preceding item 0 or more times. For example, "x*" means a string that repeats "x" 0 or more times. (it can be "" or "xxxxxxxxxxxxx")
+"*" : Matches the preceding item 0 or more times. For example, "x*" matches a string that repeats "x" 0 or more times. (it can be "" or "xxxxxxxxxxxxx")
 "+" : Matches the preceding item 1 or more times.
 ```
 
 ### OR Operator
-OR Operator "|" indicate the logical "or". For example "I have a (dog|cat)" means "I have a dog" or "I have a cat". 
+OR Operator "|" indicate the logical "or". For example, "dog|cat" matches "dog" or "cat". 
 
 ### Character Classes
-Character classes is a group of components that distinguish type of characters. Components below are common examples of Character classes.
+Character classes is a group of components that distinguish type of characters. Components below are examples of Character classes.
 ```
-"\d" : Matches any digit(0 to 9). For example "\d\d" means any two digit numbers.
+"\d" : Matches any digit(0 to 9). For example "\d\d" matches any two digit numbers.
 "\s" : Matches a single white space character, including space, tab, form feed, line feed, and other Unicode spaces. 
 ```
 
 ### Flags
+Regular expressions have optional flags that allow for functionality like global searching and case-insensitive searching. These flags can be used separately or together in any order, and are included as part of the regular expression. Components below are some examples of flag.
+```
+"i" : Case-insensitive search
+"m" : Multi-line search
+```
 
 ### Grouping and Capturing
+Grouping and Capturing indicate groups and ranges of expression characters. Components below are some examples of grouping
+```
+"[]" : 
+"[^]" : 
+```
 
 ### Bracket Expressions
 
