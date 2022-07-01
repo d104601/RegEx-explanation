@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regular Expression
 
-Introductory paragraph (replace this with your text)
+In this article I will explain what is the regular expression.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+ 
 
 ## Table of Contents
 
@@ -45,5 +45,4 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Look-ahead and Look-behind
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This article is finished By Taeyong Lee(https://github.com/d104601)
