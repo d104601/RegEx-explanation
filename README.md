@@ -21,16 +21,16 @@ Regex to detect password with 1 uppercase letter, 1 number, and be at least 8 ch
 
 ## Table of Contents
 
-- [Anchors](#anchors)
-- [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
-- [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
+- [Anchors](#Anchors)
+- [Quantifiers](#Quantifiers)
+- [OR Operator](#OR-Operator)
+- [Character Classes](#Character-Classes)
+- [Flags](#Flags)
+- [Grouping and Capturing](#Grouping-and-Capturing)
+- [Bracket Expressions](#Bracket-Expressions)
+- [Greedy and Lazy Match](#Greedy-and-Lazy-Match)
+- [Boundaries](#Boundaries)
+- [Back-references](#Back-References)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
