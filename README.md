@@ -69,20 +69,25 @@ Regular expressions have optional flags that allow for functionality like global
 ### Grouping and Capturing
 Grouping and Capturing indicate groups and ranges of expression characters. Components below are some examples of grouping
 ```
-"[]" : 
-"[^]" : 
+"()" : Matches any character inside of "()". For example "(ab)+" means any words repeating "ab", such as "ab", "ababab". 
 ```
 
 ### Bracket Expressions
+Bracket expression "[]", match a specific set of single characters, and may match a specific set of multi-character collating elements, based on the non-empty set of list expressions contained in the bracket expression.
 
 ### Greedy and Lazy Match
+Greedy and Lazy match is methods to search keywords with Regex. Greedy Match is keep searching until condition is not satisfied. Lazy Match is stop searching once condition is satisfied.
 
 ### Boundaries
-Boundaries "\b" is a component that is a type of anchors. 
+Boundaries ,"\b", is a component that is a type of anchors. It matches at a position that is called a “word boundary”. 
 
 ### Back-references
+Back-references match the same text as previously matched by a capturing group. 
 
 ### Look-ahead and Look-behind
+Look-ahead "(?=)" asserts that what immediately follows the current position in the string after "?=". For example, "(?=foo)" asserts that what immediately follows the current position in the string is "foo".
+
+Look-behind "(?<=)" asserts that what immediately precedes the current position in the string after "?=". For example, "(?<=foo)" asserts that what immediately precedes the current position in the string is "foo".
 
 ## Author
 This article is finished By Taeyong Lee(https://github.com/d104601)
